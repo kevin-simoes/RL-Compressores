@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RL Compressores</title>
+  <link rel="stylesheet" href="css/shstyle.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="icon" href="imgs/Logo rl.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class ="menu-lateral">
+      <div class="btn-expandir">
+        <i class="bi bi-list" id="btn-exp"></i>
+      </div>
+
+      <ul>
+        <li class="item-menu">
+          <a href="index.html">
+              <span class="icon"><i class="bi bi-house"></i></span>
+              <span class="txt-link">Menu</span>
+          </a>
+       </li>
+       <li class="item-menu">
+          <a href="#">
+              <span class="icon"><i class="bi bi-truck"></i></span>
+              <span class="txt-link">Produtos</span>
+          </a>
+       </li>
+       <li class="item-menu">
+        <a href="enterprise.html">
+          <span class="icon"><i class="bi bi-buildings"></i></span>
+          <span class="txt-link">Empresa</span>
+      </a>
+      </li>
+     </ul>
+  </nav>
+
+  <header>
+      <div class="container">
+        <a href="index.html">
+        <img src="imgs/Logo rl.jpg" style="position: absolute;left: 100px; top: 15px;" class="logo" width="80px" height="80px">
+        <h1 style="position: absolute; top: 25px; left: 190px;">
+          <span style="color: black;">Compressores</span><br>
+          <span style="color: white; text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;">& Válvulas</span>
+        </a>
+       </h1>
+ 
+        <div class="search-container">
+          <input type="text" class="search-input" placeholder="Pesquisar...">
+          <button class="search-button">I<i class="bi bi-search"></i></button>
+        </a>
+      </div>
+  </header>
+
+  <main>
+      <div class="carousel">
+          <div class="carousel-container">
+            <div class="carousel-item active">
+              <img src="imgs/carrosel-img2.png" alt="Imagem 1">
+              <div class="carousel-caption">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="imgs/Carrosel-img1.png" alt="Imagem 2">
+              <div class="carousel-caption">
+                <h1>Tudo em um só lugar.</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="imgs/carrosel-img3.png" alt="Imagem 3">
+              <div class="carousel-caption">
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control prev" onclick="moveCarousel(-1)">&#10094;</button>
+          <button class="carousel-control next" onclick="moveCarousel(1)">&#10095;</button>
+      </div>
+      <div class="category-buttons">
+        <a href="camisas.html">Compressores</a>
+        <a href="shorts.html">Válvulas</a>
+        <a href="calcas.html">Peças</a>
+        <a href="sapatos.html">Filtros</a>
+        <a href="acessorios.html">Motor</a>
+      </div>
+      <section class="produtos-populares">
+        <p class="titles">Produtos Populares</p>
+        <div class="produtos-container">
+          <div class="produto">
+            <a href="product.html" class="produto-link">
+              <img src="imgs/product2.webp" alt="Produto 1">
+              <h3>Produto 1</h3>
+              <p>Descrição breve do produto 1.</p>
+              <div class="category-buttons">
+                <span>Válvulas</span>
+              </div>
+              <p class="preco">R$ 100,00</p>
+            </a>
+          </div>
+          <div class="produto">
+            <a href="link-para-outra-pagina.html" class="produto-link">
+              <img src="imgs/product1.webp" alt="Produto 2">
+              <h3>Produto 2</h3>
+              <p>Descrição breve do produto 2.</p>
+              <div class="category-buttons">
+                <span>Compressores</span>
+              </div>
+              <p class="preco">R$ 150,00</p>
+            </a>
+          </div>
+          <div class="produto">
+            <a href="link-para-outra-pagina.html" class="produto-link">
+              <img src="imgs/product3.jpg" alt="Produto 3">
+              <h3>Produto 3</h3>
+              <p>Descrição breve do produto 3.</p>
+              <div class="category-buttons">
+                <span>Filtros</span>
+              </div>
+              <p class="preco">R$ 200,00</p>
+            </a>
+          </div>
+          <div class="produto">
+            <a href="link-para-outra-pagina.html" class="produto-link">
+              <img src="imgs/product4.webp" alt="Produto 3">
+              <h3>Produto 4</h3>
+              <p>Descrição breve do produto 4.</p>
+              <div class="category-buttons">
+                <span>Compressores</span>
+              </div>
+              <p class="preco">R$ 200,00</p>
+            </a>
+          </div>
+        </div>
+        
+        <p class="titles-under">Produtos Recentes</p>
+        <div class="produtos-container">
+          <div class="produto">
+            <a href="link-para-outra-pagina.html" class="produto-link">
+              <img src="imgs/product2.webp" alt="Produto 1">
+              <h3>Produto 1</h3>
+              <p>Descrição breve do produto 1.</p>
+              <div class="category-buttons">
+                <span>Válvulas</span>
+              </div>
+              <p class="preco">R$ 100,00</p>
+            </a>
+          </div>
+          <div class="produto">
+            <a href="link-para-outra-pagina.html" class="produto-link">
+              <img src="imgs/product1.webp" alt="Produto 2">
+              <h3>Produto 2</h3>
+              <p>Descrição breve do produto 2.</p>
+              <div class="category-buttons">
+                <span>Compressores</span>
+              </div>
+              <p class="preco">R$ 150,00</p>
+            </a>
+          </div>
+          <div class="produto">
+            <a href="link-para-outra-pagina.html" class="produto-link">
+              <img src="imgs/product3.jpg" alt="Produto 3">
+              <h3>Produto 3</h3>
+              <p>Descrição breve do produto 3.</p>
+              <div class="category-buttons">
+                <span>Filtros</span>
+              </div>
+              <p class="preco">R$ 200,00</p>
+            </a>
+          </div>
+          <div class="produto">
+            <a href="link-para-outra-pagina.html" class="produto-link">
+              <img src="imgs/product4.webp" alt="Produto 3">
+              <h3>Produto 4</h3>
+              <p>Descrição breve do produto 4.</p>
+              <div class="category-buttons">
+                <span>Compressores</span>
+              </div>
+              <p class="preco">R$ 200,00</p>
+            </a>
+          </div>
+        </div>
+        </section>
+      <section class="location-section">
+        <div class="location-text">
+          <h1>COMPRAS APENAS NA LOJA<span>.</span></h1>
+          <p>Esse é um site apenas para visualizar ofertas e solicitar serviços em Guarulhos, não enviamos produtos online.</p>
+        </div>
+        <div class="location-map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.5187971085297!2d2.781018076177666!3d48.867385771333346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e61d19ca7ae2bd%3A0x57faf8cb6310e660!2sDisneyland%20Paris!5e0!3m2!1spt-PT!2sbr!4v1739313980545!5m2!1spt-PT!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </iframe>
+        </div>
+      </section>
+      <!-- Seção Final -->
+<section class="footer-section">
+  <div class="footer-container">
+    <div class="footer-products">
+      <h2>Produtos</h2>
+      <ul>
+        <li><a href="#">• Compressores de ar</a></li>
+        <li><a href="#">• Tubulação de ar Comprimido</a></li>
+        <li><a href="#">• Ferramentas Pneumáticas</a></li>
+        <li><a href="#">• Equipamentos de Lubrificação</a></li>
+      </ul>
+    </div>
+    <div class="footer-contact">
+      <h2>Contato</h2>
+      <ul>
+        <li><a href="#"><i class="bi bi-envelope-at-fill"></i> compressores@gmail.com</a></li>
+        <li><a href="#" target="_blank"><i class="bi bi-whatsapp"></i> (11) 9999-9999</a></li>
+        <li><a href="#" target="_blank"><i class="bi bi-whatsapp"></i> (11) 1111-1111</a></li>
+        <li><a href="#" target="_blank"><i class="bi bi-geo-alt-fill"></i> Rua Compressores</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-text">
+    <p>&copy; Desenvolvido por Kevin Simões.</p>
+  </div>
+</section>
+
+    </main>
+  <script src="js/menu.js"></script>
+  <script src="js/carousel.js"></script>
+</body>
+</html>
+
